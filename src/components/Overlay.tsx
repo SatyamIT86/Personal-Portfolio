@@ -31,10 +31,10 @@ export default function Overlay() {
                     style={{ opacity: opacity1, y: y1 }}
                     className="absolute inset-x-0 flex flex-col items-center text-center px-6"
                 >
-                    <h1 className="text-5xl md:text-8xl font-bold tracking-tighter mb-4 uppercase">
+                    <h1 className="text-4xl md:text-8xl font-bold tracking-tighter mb-4 uppercase">
                         Satyam Pandey.
                     </h1>
-                    <p className="text-lg md:text-2xl opacity-60 font-light tracking-widest uppercase">
+                    <p className="text-sm md:text-2xl opacity-60 font-light tracking-widest uppercase">
                         Building Products that scale.
                     </p>
                 </motion.section>
