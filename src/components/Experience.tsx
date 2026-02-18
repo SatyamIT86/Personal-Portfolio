@@ -106,7 +106,6 @@ export default function Experience() {
                             {EDUCATION.map((edu, i) => (
                                 <div key={i} className="border border-border bg-foreground/[0.01] p-8 rounded-2xl backdrop-blur-sm">
                                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
-                                        Riverside: Theme-aware education.
                                         <h3 className="text-2xl font-bold">{edu.degree}</h3>
                                         <span className="text-sm font-mono opacity-40 uppercase tracking-widest">{edu.duration}</span>
                                     </div>

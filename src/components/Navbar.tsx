@@ -10,6 +10,7 @@ const NAV_ITEMS = [
     { label: "Projects", href: "#projects" },
     { label: "Experience", href: "#experience" },
     { label: "Education", href: "#education" },
+    { label: "Contact", href: "#contact" },
 ];
 
 import { Menu, X } from "lucide-react";

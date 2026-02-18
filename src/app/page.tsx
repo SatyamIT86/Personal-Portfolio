@@ -7,6 +7,7 @@ import Overlay from "@/components/Overlay";
 import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Contact from "@/components/Contact";
 import ProjectModal from "@/components/ProjectModal";
 
 export default function Home() {
@@ -31,8 +32,11 @@ export default function Home() {
       {/* Career & Education */}
       <Experience />
 
-      {/* Footer / Contact (Optional but good for completeness) */}
-      <footer className="py-20 text-center border-t border-white/5 bg-background">
+      {/* Contact Section */}
+      <Contact />
+
+      {/* Footer */}
+      <footer className="py-8 text-center border-t border-white/5 bg-background">
         <p className="opacity-30 text-sm tracking-widest uppercase">
           &copy; {new Date().getFullYear()} Satyam Pandey. Built with speed.
         </p>

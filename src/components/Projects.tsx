@@ -78,7 +78,7 @@ const PROJECTS = [
       }
     ],
     takeaway: "Engineered for reliability and noise reduction, providing a clear window into infrastructure health without drowning in data.",
-    link: "https://github.com/SatyamIT86",
+    link: "https://github.com/SatyamIT86/Docker-Monitoring-System",
   },
   {
     title: "Zoom Clone",
@@ -147,7 +147,6 @@ function ProjectCard({ project, index, onClick }: { project: any; index: number;
       onClick={onClick}
       className="group relative cursor-pointer overflow-hidden rounded-2xl border border-border bg-foreground/[0.02] p-6 md:p-8 backdrop-blur-md transition-shadow hover:shadow-2xl hover:shadow-accent/10"
     >
-      Riverside: Theme-aware project cards.
       <div className="flex flex-col justify-between h-full">
         <div>
           <h3 className="mb-4 text-2xl font-semibold md:text-3xl">
