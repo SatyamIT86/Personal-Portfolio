@@ -31,29 +31,29 @@ const PROJECTS = [
     link: "https://github.com/SatyamIT86",
   },
   {
-    title: "FilamentAI Platform",
-    description: "AI-powered surveillance and monitoring dashboard using computer vision to detect security events in real-time.",
-    fullDescription: "Comprehensive AI-powered surveillance platform providing real-time security events monitoring. Features a robust client-server architecture for processing computer vision data and delivering instant alerts.",
-    tech: ["Flutter", "Node.js", "Express", "MongoDB", "Computer Vision"],
+    title: "YouTube Backend API",
+    description: "Production-ready RESTful backend system with secure JWT authentication, modular MVC architecture, and file upload handling.",
+    fullDescription: "Production-ready RESTful backend system built using Node.js and Express, designed with modular architecture. Implements secure authentication, structured routing, database modeling, and file upload handling to simulate a scalable real-world backend platform.",
+    tech: ["Node.js", "Express", "MongoDB", "Mongoose", "JWT", "Multer"],
     features: [
-      "Real-time computer vision event detection.",
-      "Sub-second latency security notifications.",
-      "Interactive analytics dashboard for safety metrics.",
-      "Cross-platform Flutter app (Web/Mobile/Desktop).",
-      "Scalable backend handling concurrent data streams."
+      "JWT-based user authentication & authorization.",
+      "Secure password hashing and token validation.",
+      "RESTful CRUD APIs for users and resources.",
+      "File upload handling using Multer integration.",
+      "Protected routes with middleware-based access control."
     ],
     challenges: [
       {
-        title: "High-Throughput Streams",
-        description: "Scaling the Node.js backend to process multiple concurrent real-time computer vision streams without data loss."
+        title: "Authentication & Token Security",
+        description: "Designing a secure JWT authentication flow including login, protected routes, and middleware-based token validation to prevent unauthorized access."
       },
       {
-        title: "Observability at Scale",
-        description: "Building an interactive dashboard that aggregates thousands of safety alerts into actionable reports."
+        title: "Scalable Backend Architecture",
+        description: "Structuring the application into routes, controllers, models, and middlewares to maintain separation of concerns and production-level maintainability."
       }
     ],
-    takeaway: "Bridges the gap between raw AI processing and actionable business intelligence through a focus on real-time observability.",
-    link: "https://github.com/SatyamIT86",
+    takeaway: "Prioritizes clean architecture, secure authentication, and scalable backend structure — simulating real-world API development practices used in modern SaaS platforms.",
+    link: "https://github.com/SatyamIT86/Backend-with-javascript",
   },
   {
     title: "Docker Alert System",
@@ -103,7 +103,7 @@ const PROJECTS = [
       }
     ],
     takeaway: "Designed with a focus on high availability and intuitive UX, moving beyond simple RTC implementations to a complete, user-ready product.",
-    link: "https://github.com/SatyamIT86",
+    link: "https://github.com/SatyamIT86/Zoom-Clone",
   },
 ];
 
