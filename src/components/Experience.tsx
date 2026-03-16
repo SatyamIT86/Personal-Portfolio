@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const EXPERIENCE = [
     {
         company: "Filament AI",
-        role: "Application Developer (Part-Time, Remote)",
+        role: "Application Developer (Full-Time, Remote)",
         duration: "Oct 2025 – Present",
         points: [
             "Built and maintained Flutter-based cross-platform applications.",
@@ -17,7 +17,7 @@ const EXPERIENCE = [
     {
         company: "Allied Digital Services Limited",
         role: "Desktop Support Engineer (Full-Time, Onsite)",
-        duration: "July 2024 – March 2026",
+        duration: "July 2024 – Sept 2025",
         points: [
             "Provided L1/L2 technical support for enterprise users.",
             "Troubleshot Windows OS, networking, and Microsoft products.",
